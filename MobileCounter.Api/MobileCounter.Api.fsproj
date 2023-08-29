@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>MobileCounter</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="DailyCounter.fs" />
+    <Compile Include="WeatherForecast.fs" />
+    <Compile Include="Controllers\CounterController.fs" />
+    <Compile Include="Controllers/WeatherForecastController.fs" />
+    <Compile Include="Startup.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
